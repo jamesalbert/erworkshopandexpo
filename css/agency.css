@@ -230,6 +230,13 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+@media(max-width:768px) {
+  .timeline>li .speaker-image {
+    width: 90px;
+    height: 90px;
+  }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -425,6 +432,10 @@ section h3.section-subheading {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+    .timeline>li .speaker-image {
+      width: 80px;
+      height: 80px;
+    }
 }
 
 .timeline {
@@ -540,6 +551,11 @@ section h3.section-subheading {
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
+    }
+
+    .timeline>li .speaker-image {
+      width: 100px;
+      height: 100px;
     }
 
     .timeline>li {
